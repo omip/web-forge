@@ -5,8 +5,8 @@
   --gray-950: hsl(0, 0%, 7%);
   --regular: 500;
   --bold: 800;
-  --mobile-size: 327px;
-  --desktop-size: 384px;
+  --mobile-size: 20.5rem;
+  --desktop-size: 24rem;
   --heading-color: var(--gray-950);
 }
 
