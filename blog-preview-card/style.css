@@ -7,7 +7,7 @@
   --bold: 800;
   --mobile-size: 327px;
   --desktop-size: 384px;
-  --heading-color: var(--gray);
+  --heading-color: var(--gray-950);
 }
 
 * {
@@ -42,11 +42,11 @@ article {
   flex-direction: column;
   padding-inline: 1.5rem;
   padding-block: 1.5rem;
+  cursor: pointer;
 
   &:hover,
   a:focus {
     --heading-color: var(--yellow);
-    cursor: pointer;
   }
 
   > img {
