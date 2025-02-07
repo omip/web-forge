@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <article>
+      <section class="result">
+        <h2>Your Result</h2>
+        <p><em class="score">76</em> of 100</p>
+        <h3>Great</h3>
+        <p>
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </section>
+
+      <section class="summary">
+        <h2>Summary</h2>
+        <dl>
+          <div class="summary-item red">
+            <dt>
+              <img src="./images/icon-reaction.svg" alt="" aria-hidden="true" />
+              Reaction
+            </dt>
+            <dd>
+              <span>80</span> /
+              <span>100</span>
+            </dd>
+          </div>
+          <div class="summary-item yellow">
+            <dt>
+              <img src="./images/icon-memory.svg" alt="" aria-hidden="true" />
+              Memory
+            </dt>
+            <dd>
+              <span>92</span> /
+              <span>100</span>
+            </dd>
+          </div>
+          <div class="summary-item green">
+            <dt>
+              <img src="./images/icon-verbal.svg" alt="" aria-hidden="true" />
+              Verbal
+            </dt>
+            <dd>
+              <span>61</span> /
+              <span>100</span>
+            </dd>
+          </div>
+          <div class="summary-item blue">
+            <dt>
+              <img src="./images/icon-visual.svg" alt="" aria-hidden="true" />
+              Visual
+            </dt>
+            <dd>
+              <span>72</span> /
+              <span>100</span>
+            </dd>
+          </div>
+        </dl>
+        <button><span>Continue</span></button>
+      </section>
+    </article>
+  </body>
+</html>
